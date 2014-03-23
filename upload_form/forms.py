@@ -5,4 +5,4 @@ class UploadForm(forms.ModelForm):
 
     class Meta:
         model = Upload
-        fields = ('title', 'body', 'pub_date')
+        fields = ('title', 'body', 'pub_date'. 'file'')
